@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block tittle %}
+	LELE
+{% endblock %}
+
+{% block content %}
+	<h1>LELE</h1>
+	<ul>
+		{% for usuario in usuarios %}
+			<li>{{usuario.username}}</li>
+		{% endfor %}
+	</ul>
+{% endblock %}

@@ -1,0 +1,101 @@
+body {
+	background-color: #e2e2e2;
+}
+.fondo{
+	height: 200px;
+	/*background-color: yellow;
+	background-image: url('https://placekitten.com/g/200/300');
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	background-attachment: scroll;*/
+	/*background: green url('https://placekitten.com/g/200/300') no-repeat scroll;
+	background-size: cover;*/
+	/*background-color: hsl(80, 50%, 50%,1);*/
+	background-image: linear-gradient(to top right, white, #222);
+}	
+.box{
+	background-color: white;
+	padding: 12px 20px;
+	border-radius: 4px;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
+}
+input[type=text]{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+textarea{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+input[type=submit]{
+	width: 100%;
+	background-color: #4caf50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.box2{
+box-shadow: 1px 1px 2px rgba(0,0,0,0.3) ;
+}
+.text2 {
+	color: white;
+	text-shadow: 0px 1px 1px rgba(255,0,0,0.5);
+}
+.box3{
+	position: relative;
+	left: 50px;
+	top: 50px;
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	box-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+	transform: rotateX(20deg);
+	transition: 0.5s 0.2s;
+}
+.box3:hover{
+	transform: scale(1.3,1.3);
+	background-image: url('http://placekitten.com/200/300');
+	background-size: cover;
+}
+.box{
+background-color: white;
+box-shadow: 1px 1px 1px rgba(0,0,0, 0.2);
+padding: 10px;
+margin: 20px 15px;
+transition: 0.5s 0.2s;
+width: 300px;
+text-align: center;
+
+
+}
+.rojo{
+	border-left: solid 3px red;
+}
+.rojo:hover{
+	transform: scale(1.1, 1.1);
+}
+.verde{
+	border-left: solid 3px green;
+}
+.verde:hover{
+	box-shadow: 8px 3px 8px rgba(0,0,0,.1);
+}
+.azul{
+	border-left: solid 3px blue;
+}
+.azul:hover{
+	background-color: #aee;
+}

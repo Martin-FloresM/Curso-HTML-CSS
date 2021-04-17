@@ -1,0 +1,28 @@
+body {
+	/*width: 200px;*/
+
+}
+.flex{
+	display: flex;
+	/*flex-direction: row-reverse; (row, column, column-reverse)*/
+	/*flex-wrap: wrap; */
+
+	flex-flow: row wrap; /* combina flex direction y flex wrap */
+						 /*se ingresan los dos valores*/
+	height: 200px;
+	/*justify-content: space-between;*/  /*space-evenly, start, end*/
+	/*align-items: stretch;*/ /*flex-start, center, flex-end*/
+	/*align-content: flex-start;*/ /*flex-start, flex-end, stretch, space-around, space-evenly */
+
+}
+.primero{
+	flex-grow: 1;
+	flex-basis: 20px;
+}
+.segundo{
+	flex-grow: 1;
+	align-self: center;
+}
+.tercero{
+ 	flex-grow: 2;
+}
